@@ -1,0 +1,3 @@
+Datacenter,Folder,VMName,Network,vCPU,MemoryGB,DiskGB,OSType,Template,Datastore,DatastoreCluster,ClusterName,PowerOn,NsxSegmentId
+brm-m01-datacenter,Splunk,SPVM01,NSXALB,4,16,200,win2019,Win2k19Template,brm-m01-cluster-001-vsan,,brm-m01-cluster-001,TRUE,1752b724-a938-44d1-a505-333657a3f255
+brm-m01-datacenter,Ansible,ANSVM01,NSXALB,2,8,80,win2019,Win2k19Template,brm-m01-cluster-001-vsan,,brm-m01-cluster-001,TRUE,1752b724-a938-44d1-a505-333657a3f255
