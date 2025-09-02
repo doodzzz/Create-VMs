@@ -1,4 +1,4 @@
-<h1>New-VMs-FromCsv (Cluster-Only, DS Cluster, Pre-GuestOS)</h1>
+<h1>Create-VMs (From CSV, Cluster-Only, DS Cluster, Pre-GuestOS)</h1>
 
 <p>
 Create vSphere VMs from a CSV using <strong>cluster-only placement</strong>. The script clones from templates, builds folder paths, wires networks (VSS/VDS/NSX), chooses storage (Datastore <em>or</em> DatastoreCluster), expands the primary disk, sets CPU/RAM, sets <strong>Guest OS type before power-on</strong>, and (optionally) powers on.
